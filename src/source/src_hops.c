@@ -200,32 +200,32 @@
 
             case 8:
                 obj->map.map[0] = PA_CHANNEL_POSITION_FRONT_LEFT;
-                obj->map.map[0] = PA_CHANNEL_POSITION_FRONT_RIGHT;
-                obj->map.map[0] = PA_CHANNEL_POSITION_REAR_LEFT;
-                obj->map.map[0] = PA_CHANNEL_POSITION_REAR_RIGHT;
-                obj->map.map[4] = PA_CHANNEL_POSITION_LFE;
-                obj->map.map[5] = PA_CHANNEL_POSITION_SIDE_LEFT;
-                obj->map.map[6] = PA_CHANNEL_POSITION_SIDE_RIGHT;
-                obj->map.map[7] = PA_CHANNEL_POSITION_AUX0;
+                obj->map.map[1] = PA_CHANNEL_POSITION_FRONT_RIGHT;
+                obj->map.map[2] = PA_CHANNEL_POSITION_REAR_LEFT;
+                obj->map.map[3] = PA_CHANNEL_POSITION_REAR_RIGHT;
+                obj->map.map[4] = PA_CHANNEL_POSITION_FRONT_CENTER;
+                obj->map.map[5] = PA_CHANNEL_POSITION_LFE;
+                obj->map.map[6] = PA_CHANNEL_POSITION_SIDE_LEFT;
+                obj->map.map[7] = PA_CHANNEL_POSITION_SIDE_RIGHT;
                 break;
 
             case 16:
                 obj->map.map[0]  = PA_CHANNEL_POSITION_FRONT_LEFT;
-                obj->map.map[0]  = PA_CHANNEL_POSITION_FRONT_RIGHT;
-                obj->map.map[0]  = PA_CHANNEL_POSITION_REAR_LEFT;
-                obj->map.map[0]  = PA_CHANNEL_POSITION_REAR_RIGHT;
-                obj->map.map[4]  = PA_CHANNEL_POSITION_LFE;
-                obj->map.map[5]  = PA_CHANNEL_POSITION_SIDE_LEFT;
-                obj->map.map[6]  = PA_CHANNEL_POSITION_SIDE_RIGHT;
-                obj->map.map[7]  = PA_CHANNEL_POSITION_AUX0;
-                obj->map.map[8]  = PA_CHANNEL_POSITION_AUX1;
-                obj->map.map[9]  = PA_CHANNEL_POSITION_AUX2;
-                obj->map.map[10] = PA_CHANNEL_POSITION_AUX3;
-                obj->map.map[11] = PA_CHANNEL_POSITION_AUX4;
-                obj->map.map[12] = PA_CHANNEL_POSITION_AUX5;
-                obj->map.map[13] = PA_CHANNEL_POSITION_AUX6;
-                obj->map.map[14] = PA_CHANNEL_POSITION_AUX7;
-                obj->map.map[15] = PA_CHANNEL_POSITION_AUX8;
+                obj->map.map[1]  = PA_CHANNEL_POSITION_FRONT_RIGHT;
+                obj->map.map[2]  = PA_CHANNEL_POSITION_REAR_LEFT;
+                obj->map.map[3]  = PA_CHANNEL_POSITION_REAR_RIGHT;
+                obj->map.map[4]  = PA_CHANNEL_POSITION_FRONT_CENTER;
+                obj->map.map[5]  = PA_CHANNEL_POSITION_LFE;
+                obj->map.map[6]  = PA_CHANNEL_POSITION_SIDE_LEFT;
+                obj->map.map[7]  = PA_CHANNEL_POSITION_SIDE_RIGHT;
+                obj->map.map[8]  = PA_CHANNEL_POSITION_AUX0;
+                obj->map.map[9]  = PA_CHANNEL_POSITION_AUX1;
+                obj->map.map[10] = PA_CHANNEL_POSITION_AUX2;
+                obj->map.map[11] = PA_CHANNEL_POSITION_AUX3;
+                obj->map.map[12] = PA_CHANNEL_POSITION_AUX4;
+                obj->map.map[13] = PA_CHANNEL_POSITION_AUX5;
+                obj->map.map[14] = PA_CHANNEL_POSITION_AUX6;
+                obj->map.map[15] = PA_CHANNEL_POSITION_AUX7;
                 break;
 
             default:
